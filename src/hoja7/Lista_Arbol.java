@@ -7,6 +7,8 @@
 package hoja7;
 
 import Hoja4.Listas;
+import Hoja4.Nodo;
+import Hoja4.Nodo_Simple;
 import Hoja4.Lista_Simple;
 /**
  *
