@@ -40,6 +40,11 @@ public class Hoja7 {
                 listaF[i]=1;
             }
         }
+        
+        Arbol arb = new Arbol();
+        Lista_Arbol Larb = new Lista_Arbol();
+        
+        Larb.agregarOrdenados(arb);
     }
     
 }
