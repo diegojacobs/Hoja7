@@ -99,12 +99,13 @@ public class Lista_Arbol {
      
     public String obtenerHojas(String s,Nodo raiz){
         String cadena;
-        if(raiz.getCarac()==s){
+        if(raiz.getCarac()==s)
             return cadena;
-        }
         else
+        {
             cadena=obtenerHojas(s+"0",raiz.getLeft());
             cadena=obtenerHojas(s+"1",raiz.getRight());
-        return cadena;
+            return cadena;
+        }
     }
 }
